@@ -33,7 +33,6 @@ body {
 
 /* Utility classes for gradient background and playful surfaces */
 .ocean-gradient {
-  /* Tailwind gradient utility replicated for static CSS contexts if needed */
   background-image: linear-gradient(to bottom right, #ffe4ef, #ede9fe, #dbeafe);
 }
 
@@ -44,7 +43,7 @@ body {
   border: 1px solid rgba(139, 92, 246, 0.15);
 }
 
-/* Button base */
+/* Buttons */
 .btn {
   @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium transition focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
 }
